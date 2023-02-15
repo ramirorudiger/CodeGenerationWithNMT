@@ -1,3 +1,4 @@
+nl,code
 "get the next element of the iterable pattern_iter, assign the result for ch and escaped, respectively.","ch , escaped = next ( pattern_iter )"
 "if ch is not equal to string '<' or string '=',","if ch not in ( '<' , '=' ) :"
 "raise an ValueError with an argument string ""Non-reversible reg-exp portion: '(?P%s'"" formated with ch.","raise ValueError ( ""Non-reversible reg-exp portion: '(?P%s'"" % ch )"
