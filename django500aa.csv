@@ -1,3 +1,4 @@
+nl,code
 define the function _split_statements with an argument content.,def _split_statements ( content ) :
 "call the function re.compile with an argument raw string ""^((?:'[^']*'|[^'])*?)--.*$"", substitute the result for comment_re.","comment_re = re . compile ( r""^((?:'[^']*'|[^'])*?)--.*$"" )"
 statements is an empty list.,statements = [ ]
