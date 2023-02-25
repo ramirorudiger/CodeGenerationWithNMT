@@ -1,4 +1,4 @@
-intent,snippet
+nl,code
 send a signal `signal.sigusr1` to the current process,"os.kill(os.getpid(), signal.SIGUSR1)"
 decode a hex string '4a4b4c' to utf-8.,bytes.fromhex('4a4b4c').decode('utf-8')
 check if all elements in list `mylist` are identical,all(x == myList[0] for x in myList)

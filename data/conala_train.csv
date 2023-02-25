@@ -1,4 +1,4 @@
-intent,snippet
+nl,code
 convert a list to a dictionary in python,"b = dict(zip(a[0::2], a[1::2]))"
 python - sort a list of nested lists,l.sort(key=sum_nested)
 how to get the size of a string in python?,print(len('\xd0\xb9\xd1\x86\xd1\x8b'))
